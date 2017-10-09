@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "veams-component-slider",
+        "scope": null,
+        "escapedName": "veams-component-slider",
+        "name": "veams-component-slider",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/sebastian.fitzner/projects/veams/testing/v9-refactor"
+    ]
+  ],
+  "_from": "veams-component-slider@latest",
+  "_id": "veams-component-slider@5.0.0",
+  "_inCache": true,
+  "_location": "/veams-component-slider",
+  "_nodeVersion": "6.11.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/veams-component-slider-5.0.0.tgz_1506681260332_0.19113346259109676"
+  },
+  "_npmUser": {
+    "name": "andy-gutsche",
+    "email": "andy@veams.org"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "veams-component-slider",
+    "scope": null,
+    "escapedName": "veams-component-slider",
+    "name": "veams-component-slider",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/veams-component-slider/-/veams-component-slider-5.0.0.tgz",
+  "_shasum": "30102e64fa6bc850420a24002db7b43e268db762",
+  "_shrinkwrap": null,
+  "_spec": "veams-component-slider",
+  "_where": "/Users/sebastian.fitzner/projects/veams/testing/v9-refactor",
+  "author": {
+    "name": "Sebastian Fitzner"
+  },
+  "bugs": {
+    "url": "https://github.com/Veams/veams-component-slider/issues"
+  },
+  "dependencies": {},
+  "description": "The component represents a simple but powerful slider.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "30102e64fa6bc850420a24002db7b43e268db762",
+    "tarball": "https://registry.npmjs.org/veams-component-slider/-/veams-component-slider-5.0.0.tgz"
+  },
+  "homepage": "https://github.com/Veams/veams-component-slider#readme",
+  "keywords": [
+    "veams"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "andy-gutsche",
+      "email": "andy@veams.org"
+    },
+    {
+      "name": "sebastian-fitzner",
+      "email": "sebastian@veams.org"
+    }
+  ],
+  "name": "veams-component-slider",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-slider.git"
+  },
+  "scripts": {},
+  "version": "5.0.0"
+}

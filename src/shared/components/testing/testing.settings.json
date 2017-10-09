@@ -1,0 +1,10 @@
+{
+    "paths": {
+        "scripts": "src/shared/components/testing/scripts/testing",
+        "styles": "src/shared/components/testing/styles/_c-testing"
+    },
+    "type": "component",
+    "contextData": "testing-bp",
+    "layout": "lyt-docs",
+    "publish": false
+}

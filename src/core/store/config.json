@@ -1,0 +1,442 @@
+{
+	"definitions": {},
+	"properties": {
+		"description": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"sections": {
+			"properties": {
+				"copy-image": {
+					"properties": {
+						"content": {
+							"properties": {
+								"sectionHeader": {
+									"properties": {
+										"settings": {
+											"properties": {
+												"sectionHeaderClasses": {
+													"type": "string"
+												}
+											},
+											"type": "object"
+										},
+										"text": {
+											"properties": {
+												"content": {
+													"properties": {
+														"buttonText": {
+															"type": "string"
+														},
+														"headline": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												},
+												"settings": {
+													"properties": {
+														"textClasses": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												}
+											},
+											"type": "object"
+										}
+									},
+									"type": "object"
+								}
+							},
+							"type": "object"
+						},
+						"hide": {
+							"type": "boolean"
+						},
+						"settings": {
+							"properties": {
+								"sectionAnchorId": {
+									"type": "string"
+								},
+								"sectionClasses": {
+									"type": "string"
+								},
+								"sectionContentClasses": {
+									"type": "string"
+								},
+								"sectionId": {
+									"type": "string"
+								},
+								"tag": {
+									"type": "string"
+								}
+							},
+							"type": "object"
+						},
+						"sortOrder": {
+							"type": "integer"
+						},
+						"type": {
+							"type": "string"
+						}
+					},
+					"type": "object"
+				},
+				"copy-image-f": {
+					"properties": {
+						"content": {
+							"properties": {
+								"productBox": {
+									"properties": {
+										"text": {
+											"properties": {
+												"content": {
+													"properties": {
+														"buttonText": {
+															"type": "string"
+														},
+														"productImageSrc": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												},
+												"settings": {
+													"properties": {
+														"description": "This accepts anything, as long as it's valid JSON.",
+														"title": "Empty Object"
+													},
+													"type": "object"
+												}
+											},
+											"type": "object"
+										}
+									},
+									"type": "object"
+								},
+								"sectionHeader": {
+									"properties": {
+										"text": {
+											"properties": {
+												"content": {
+													"properties": {
+														"headline": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												},
+												"settings": {
+													"properties": {
+														"sectionClasses": {
+															"type": "string"
+														},
+														"textClasses": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												}
+											},
+											"type": "object"
+										}
+									},
+									"type": "object"
+								}
+							},
+							"type": "object"
+						},
+						"hide": {
+							"type": "boolean"
+						},
+						"settings": {
+							"properties": {
+								"sectionAnchorId": {
+									"type": "string"
+								},
+								"sectionClasses": {
+									"type": "string"
+								},
+								"sectionContentClasses": {
+									"type": "string"
+								},
+								"sectionId": {
+									"type": "string"
+								},
+								"tag": {
+									"type": "string"
+								}
+							},
+							"type": "object"
+						},
+						"sortOrder": {
+							"type": "integer"
+						},
+						"type": {
+							"type": "string"
+						}
+					},
+					"type": "object"
+				},
+				"interactive-map": {
+					"properties": {
+						"content": {
+							"properties": {
+								"sectionHeader": {
+									"properties": {
+										"settings": {
+											"properties": {
+												"sectionHeaderClasses": {
+													"type": "string"
+												}
+											},
+											"type": "object"
+										},
+										"text": {
+											"properties": {
+												"content": {
+													"properties": {
+														"buttonText": {
+															"type": "string"
+														},
+														"headline": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												},
+												"settings": {
+													"properties": {
+														"sectionClasses": {
+															"type": "string"
+														},
+														"textClasses": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												}
+											},
+											"type": "object"
+										}
+									},
+									"type": "object"
+								}
+							},
+							"type": "object"
+						},
+						"hide": {
+							"type": "boolean"
+						},
+						"settings": {
+							"properties": {
+								"sectionAnchorId": {
+									"type": "string"
+								},
+								"sectionClasses": {
+									"type": "string"
+								},
+								"sectionContentClasses": {
+									"type": "string"
+								},
+								"sectionId": {
+									"type": "string"
+								},
+								"tag": {
+									"type": "string"
+								}
+							},
+							"type": "object"
+						},
+						"sortOrder": {
+							"type": "integer"
+						},
+						"type": {
+							"type": "string"
+						}
+					},
+					"type": "object"
+				},
+				"sprinklr": {
+					"properties": {
+						"content": {
+							"properties": {
+								"sectionHeader": {
+									"properties": {
+										"text": {
+											"properties": {
+												"content": {
+													"properties": {
+														"headline": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												},
+												"settings": {
+													"properties": {
+														"description": "This accepts anything, as long as it's valid JSON.",
+														"title": "Empty Object"
+													},
+													"type": "object"
+												}
+											},
+											"type": "object"
+										}
+									},
+									"type": "object"
+								}
+							},
+							"type": "object"
+						},
+						"hide": {
+							"type": "boolean"
+						},
+						"settings": {
+							"properties": {
+								"sectionAnchorId": {
+									"type": "string"
+								},
+								"sectionClasses": {
+									"type": "string"
+								},
+								"sectionContentClasses": {
+									"type": "string"
+								},
+								"sectionId": {
+									"type": "string"
+								},
+								"tag": {
+									"type": "string"
+								}
+							},
+							"type": "object"
+						},
+						"sortOrder": {
+							"type": "integer"
+						},
+						"type": {
+							"type": "string"
+						}
+					},
+					"type": "object"
+				},
+				"stage-copy-image": {
+					"properties": {
+						"content": {
+							"properties": {
+								"sectionHeader": {
+									"properties": {
+										"text": {
+											"properties": {
+												"content": {
+													"properties": {
+														"headline": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												},
+												"settings": {
+													"properties": {
+														"textClasses": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												}
+											},
+											"type": "object"
+										}
+									},
+									"type": "object"
+								},
+								"videoBox": {
+									"properties": {
+										"text": {
+											"properties": {
+												"content": {
+													"properties": {
+														"buttonText": {
+															"type": "string"
+														},
+														"videoSrc": {
+															"type": "string"
+														}
+													},
+													"type": "object"
+												},
+												"settings": {
+													"properties": {
+														"description": "This accepts anything, as long as it's valid JSON.",
+														"title": "Empty Object"
+													},
+													"type": "object"
+												}
+											},
+											"type": "object"
+										}
+									},
+									"type": "object"
+								}
+							},
+							"type": "object"
+						},
+						"hide": {
+							"type": "boolean"
+						},
+						"settings": {
+							"properties": {
+								"sectionAnchorId": {
+									"type": "string"
+								},
+								"sectionClasses": {
+									"type": "string"
+								},
+								"sectionContentClasses": {
+									"type": "string"
+								},
+								"sectionId": {
+									"type": "string"
+								},
+								"tag": {
+									"type": "string"
+								}
+							},
+							"type": "object"
+						},
+						"sortOrder": {
+							"type": "integer"
+						},
+						"type": {
+							"type": "string"
+						}
+					},
+					"type": "object"
+				}
+			},
+			"type": "object"
+		},
+		"seo": {
+			"properties": {
+				"description": {
+					"type": "string"
+				},
+				"keywords": {
+					"type": "string"
+				}
+			},
+			"type": "object"
+		},
+		"title": {
+			"type": "string"
+		},
+		"tracking-name": {
+			"type": "string"
+		}
+	},
+	"type": "object"
+}

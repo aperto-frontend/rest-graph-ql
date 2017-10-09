@@ -1,0 +1,15 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Default"
+			},
+			"settings": {
+				"testingContextClass": "default",
+				"testingClasses": false,
+				"testingJsOptions": {}
+			},
+			"content": {}
+		}
+	}
+}

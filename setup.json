@@ -1,0 +1,35 @@
+{
+  "generator-veams": {
+    "projectName": "v9 refactor",
+    "taskRunner": "grunt",
+    "templateEngine": "mangony",
+    "mangonyExpress": false,
+    "installExtendedLayout": false,
+    "installPlugin": false,
+    "gulpModules": [],
+    "gruntModules": [
+      "grunt-autoprefixer",
+      "grunt-browser-sync",
+      "grunt-browserify",
+      "grunt-combine-mq",
+      "grunt-contrib-uglify",
+      "grunt-dr-svg-sprites",
+      "grunt-contrib-handlebars",
+      "grunt-browserify",
+      "grunt-contrib-uglify"
+    ],
+    "features": [],
+    "jsLibs": [
+      "jquery"
+    ],
+    "cssLibs": [
+      "bourbon-neat",
+      "bootstrap-sass",
+      "include-media"
+    ],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": true,
+    "docs": []
+  }
+}

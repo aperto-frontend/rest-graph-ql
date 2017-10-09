@@ -1,0 +1,29 @@
+/* ===================================================
+Main File For Imports
+=================================================== */
+
+// Reset (veams-reset or veams-normalize)
+@import "../../../node_modules/veams/src/scss/veams-reset";
+
+// Global Variables and Settings
+@import "../../shared/styles/shared";
+
+// Frameworks
+
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap"; // You can choose your specific components
+
+// Icons
+@import "../../shared/styles/icons/**/*";
+
+// Globals
+@import "app";
+@import "../../shared/styles/global/_get-media";
+
+// Regions in Layouts
+@import "layouts/**/*";
+
+
+// @INSERTPOINT :: @ref: scss-import, @keep: true //
+
+// Print
+@import "print";

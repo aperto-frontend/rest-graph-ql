@@ -17,10 +17,7 @@ const recipeType = new GraphQLObjectType({
 		},
 		description: {
 			type: GraphQLString
-		},
-		// user: {
-		// 	type: new GraphQLObjectType
-		// }
+		}
 	}
 });
 

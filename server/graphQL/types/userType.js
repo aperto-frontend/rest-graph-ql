@@ -25,6 +25,9 @@ const userType = new GraphQLObjectType({
 		username: {
 			type: GraphQLString
 		},
+		first_name: {
+			type: GraphQLString,
+		},
 		recipes: {
 			type: new GraphQLList(recipeType),
 			resolve: resolver(User.Recipes)

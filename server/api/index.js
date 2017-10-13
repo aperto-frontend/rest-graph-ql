@@ -4,7 +4,7 @@ import user from './user';
 import category from './category';
 import recipe from './recipe';
 import graphqlHTTP from 'express-graphql';
-import schema from '../graphQL/schemas/userRecipeSchema';
+import userSchema from '../graphQL/schemas/userSchema';
 
 const bodyParser = require('body-parser');
 const router = new Router();
@@ -20,10 +20,8 @@ router.use('/api/categories', category);
 router.use('/api/recipes', recipe);
 
 router.use('/api/graphql/users', graphqlHTTP (req => {
-	console.log(req.body);
-
 	return {
-		schema,
+		schema: userSchema,
 		graphiql: true
 	}
 }));

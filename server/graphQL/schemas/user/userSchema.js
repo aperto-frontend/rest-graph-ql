@@ -4,8 +4,8 @@ import {
 	GraphQLNonNull,
 	GraphQLInt
 } from 'graphql/type';
-import userType from '../types/userType';
-import User from '../../api/user/model';
+import userType from './userType';
+import User from '../../../api/user/model';
 import { resolver } from 'graphql-sequelize';
 
 const userSchema = new GraphQLSchema({

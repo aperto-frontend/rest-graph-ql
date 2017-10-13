@@ -4,7 +4,7 @@ import user from './user';
 import category from './category';
 import recipe from './recipe';
 import graphqlHTTP from 'express-graphql';
-import userSchema from '../graphQL/schemas/userSchema';
+import userSchema from '../graphQL/schemas/user/userSchema';
 
 const bodyParser = require('body-parser');
 const router = new Router();

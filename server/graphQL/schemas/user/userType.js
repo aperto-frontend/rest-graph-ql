@@ -6,8 +6,8 @@ import {
 	GraphQLList
 } from 'graphql';
 import { resolver } from 'graphql-sequelize';
-import User from '../../api/user/model';
-import Recipe from '../../api/recipe/model';
+import User from '../../../api/user/model';
+import Recipe from '../../../api/recipe/model';
 import recipeType from './recipeType';
 
 User.Recipes = User.hasMany(Recipe, {
@@ -26,7 +26,7 @@ const userType = new GraphQLObjectType({
 			type: GraphQLString
 		},
 		first_name: {
-			type: GraphQLString,
+			type: GraphQLString
 		},
 		recipes: {
 			type: new GraphQLList(recipeType),
